@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #FBF7EC;
+}
+
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FBF7EC;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 0 190px 140px 190px;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.titleNav {
+    float: left;
+    font-weight: 800; 
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.subNav {
+    padding: 10px 30px;
+    font-size: 17px;
+}
+
+/* products */
+.prodClas {
+    display: flex;
+    align-items: center;
+    height: 785px;
+    color: white;
+}
+
+.pic {
+    width: 525px;
+    height: 560px;
+    background-color: black;
+    margin-left: 195px;
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.titlePr {
+    padding-left: 65px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    margin-left: 15%;
+}
+
+.description {
+    width: 300px;
+    padding-left: 70px;
+
+}
