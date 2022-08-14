@@ -4,12 +4,12 @@ import Main from "./components/Main";
 import './styles/App.css';
 
 
-function App() {
+function App(props) {
 
     return (
         <div className="App">
             <Nav />
-            <Main />
+            <Main state={props.state} addProduct={props.addProduct} />
         </div>
     );
 
